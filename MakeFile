@@ -1,2 +1,2 @@
 all:
-	g++ -Iinclude -Iinclude/GLFW -o Main src/*.cpp
+	g++ -Iinclude -Iinclude/GLFW -Iinclude/headers -o Main src/*.cpp
